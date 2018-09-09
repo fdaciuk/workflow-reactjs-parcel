@@ -1,0 +1,11 @@
+{
+  "presets": ["stage-0", "env", "react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    ["module-resolver", {
+      "alias": {
+        "components": "./src/components"
+      }
+    }]
+  ]
+}
