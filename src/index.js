@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Main from './main'
+import HotExported from './hot-exported'
 
 render(
-  <Main />,
+  <HotExported />,
   document.querySelector('[data-js="app"]')
 )

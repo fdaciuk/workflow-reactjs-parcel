@@ -1,9 +1,9 @@
 import React from 'react'
-import { hot } from 'react-hot-loader'
 import App from './app'
+// Add any frontend configs on this file (BrowserRouter, Redux Provider, etc)
 
-const Main = () => {
-  return <App />
-}
+const Main = () => (
+  <App />
+)
 
-export default hot(module)(Main)
+export default Main
